@@ -12,7 +12,7 @@ import java.io.PipedOutputStream;
  * @author niezhenjie
  * 
  */
-public class TestPipedStream {
+public class PipedStreamTest {
 	public static void main(String[] args) {
 		SenderThread sender = new SenderThread();
 		PipedOutputStream pos = sender.getPipedOutputStream();
